@@ -12,7 +12,9 @@
 		F839E82A2928EC6100095B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F839E8282928EC6100095B8F /* Main.storyboard */; };
 		F839E82C2928EC6300095B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F839E82B2928EC6300095B8F /* Assets.xcassets */; };
 		F839E82F2928EC6300095B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F839E82D2928EC6300095B8F /* LaunchScreen.storyboard */; };
-		F8EAAF3729290A9E00E1B49A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EAAF3629290A9E00E1B49A /* FeedViewController.swift */; };
+		F8B3B2C3292EC28400899E3C /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3B2C2292EC28400899E3C /* FeedImageViewModel+PrototypeData.swift */; };
+		F8B3B2C5292EC29A00899E3C /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3B2C4292EC29A00899E3C /* FeedImageCell.swift */; };
+		F8B3B2C7292EC2F300899E3C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3B2C6292EC2F300899E3C /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,9 @@
 		F839E82B2928EC6300095B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F839E82E2928EC6300095B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F839E8302928EC6300095B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8EAAF3629290A9E00E1B49A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F8B3B2C2292EC28400899E3C /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
+		F8B3B2C4292EC29A00899E3C /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
+		F8B3B2C6292EC2F300899E3C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				F839E8222928EC6100095B8F /* AppDelegate.swift */,
+				F8B3B2C2292EC28400899E3C /* FeedImageViewModel+PrototypeData.swift */,
+				F8B3B2C4292EC29A00899E3C /* FeedImageCell.swift */,
+				F8B3B2C6292EC2F300899E3C /* FeedViewController.swift */,
 				F839E8242928EC6100095B8F /* SceneDelegate.swift */,
 				F839E8282928EC6100095B8F /* Main.storyboard */,
 				F839E82B2928EC6300095B8F /* Assets.xcassets */,
 				F839E82D2928EC6300095B8F /* LaunchScreen.storyboard */,
 				F839E8302928EC6300095B8F /* Info.plist */,
-				F8EAAF3629290A9E00E1B49A /* FeedViewController.swift */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F839E8232928EC6100095B8F /* AppDelegate.swift in Sources */,
-				F8EAAF3729290A9E00E1B49A /* FeedViewController.swift in Sources */,
 				F839E8252928EC6100095B8F /* SceneDelegate.swift in Sources */,
+				F8B3B2C7292EC2F300899E3C /* FeedViewController.swift in Sources */,
+				F8B3B2C3292EC28400899E3C /* FeedImageViewModel+PrototypeData.swift in Sources */,
+				F8B3B2C5292EC29A00899E3C /* FeedImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
