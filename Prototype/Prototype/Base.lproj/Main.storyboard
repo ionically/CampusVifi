@@ -20,6 +20,11 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="dBx-Qu-G3J">
+                            <rect key="frame" x="0.0" y="183" width="390" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="61" id="Kuh-iB-b4x" userLabel="FeedImageCell">
                                 <rect key="frame" x="0.0" y="94" width="390" height="61"/>
@@ -96,39 +101,11 @@
                             <outlet property="delegate" destination="mf3-k4-Iob" id="GfV-LP-VHF"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="gNJ-jF-Wcs" userLabel="My Feed"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iCs-oo-H0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1153.8461538461538" y="-116.58767772511848"/>
-        </scene>
-        <!--Root View Controller-->
-        <scene sceneID="sHb-gW-8Vi">
-            <objects>
-                <tableViewController id="eWf-ge-GcS" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="wT5-aM-qPz">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ffm-qs-Jc6">
-                                <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ffm-qs-Jc6" id="OLU-nc-QHI" userLabel="View">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="eWf-ge-GcS" id="gWb-OU-c2B"/>
-                            <outlet property="delegate" destination="eWf-ge-GcS" id="N9x-Fg-tJA"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="pwj-99-N9E" userLabel="My Feed"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7nG-Wt-Fu4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1663" y="531"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1IV-Pl-42f">
