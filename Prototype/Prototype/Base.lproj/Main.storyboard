@@ -3,6 +3,7 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,13 +35,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MMO-J9-KV0">
-                                            <rect key="frame" x="20" y="17" width="350" height="30"/>
+                                            <rect key="frame" x="20" y="17" width="350" height="466"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="47" translatesAutoresizingMaskIntoConstraints="NO" id="ozz-fC-2DF" userLabel="Location Container">
-                                                    <rect key="frame" x="0.0" y="0.0" width="53.333333333333336" height="0.0"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="53.333333333333336" height="345"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oTx-dj-o8I" userLabel="Pin Container">
-                                                            <rect key="frame" x="0.0" y="0.0" width="53.333333333333336" height="0.0"/>
+                                                            <rect key="frame" x="0.0" y="147.66666666666666" width="53.333333333333336" height="50"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin" translatesAutoresizingMaskIntoConstraints="NO" id="wrS-CU-bl4" userLabel="pin">
                                                                     <rect key="frame" x="0.0" y="0.0" width="10" height="14"/>
@@ -58,21 +59,21 @@
                                                         </view>
                                                     </subviews>
                                                 </stackView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-j5-cVH" userLabel="Location,Location, Location, Location, Location, Location, Location, Location, Location, Location,">
-                                                    <rect key="frame" x="0.0" y="10" width="58.666666666666664" height="0.0"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-j5-cVH" userLabel="Location,Location, Location, Location, Location, Location, Location, Location, Location, Location,">
+                                                    <rect key="frame" x="0.0" y="355" width="37.333333333333336" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXh-xL-zER" userLabel="Description Label">
-                                                    <rect key="frame" x="0.0" y="20" width="350" height="0.0"/>
+                                                    <rect key="frame" x="0.0" y="383" width="350" height="23"/>
                                                     <string key="text">Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VLw-Rv-tBc" userLabel="Image Container">
-                                                    <rect key="frame" x="0.0" y="30" width="350" height="0.0"/>
+                                                    <rect key="frame" x="0.0" y="416" width="350" height="50"/>
                                                     <color key="backgroundColor" red="0.8901960784313725" green="0.8901960784313725" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -82,6 +83,7 @@
                                                 </view>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="height" constant="466" id="8Dr-5y-TmL"/>
                                                 <constraint firstAttribute="width" constant="351" id="9m0-u5-HaC"/>
                                                 <constraint firstItem="ozz-fC-2DF" firstAttribute="width" secondItem="MMO-J9-KV0" secondAttribute="width" multiplier="0.152381" id="i59-YG-GIX"/>
                                             </constraints>
@@ -101,7 +103,7 @@
                             <outlet property="delegate" destination="mf3-k4-Iob" id="GfV-LP-VHF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="My Feed" id="gNJ-jF-Wcs" userLabel="My Feed"/>
+                    <navigationItem key="navigationItem" title="Title" id="gNJ-jF-Wcs" userLabel="My Feed"/>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="gLQ-OL-TE4">
                         <autoresizingMask key="autoresizingMask"/>
                         <connections>
@@ -110,6 +112,12 @@
                     </refreshControl>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iCs-oo-H0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="9tv-93-RCi" userLabel="Refresh Controller">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <viewLayoutGuide key="safeArea" id="eBC-C4-Eqs"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
             </objects>
             <point key="canvasLocation" x="-1153.8461538461538" y="-116.58767772511848"/>
         </scene>
