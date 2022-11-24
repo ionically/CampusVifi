@@ -82,7 +82,7 @@
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="466" id="8Dr-5y-TmL"/>
+                                                <constraint firstAttribute="height" constant="466" placeholder="YES" id="8Dr-5y-TmL"/>
                                                 <constraint firstAttribute="width" constant="351" id="9m0-u5-HaC"/>
                                                 <constraint firstItem="ozz-fC-2DF" firstAttribute="width" secondItem="MMO-J9-KV0" secondAttribute="width" multiplier="0.152381" id="i59-YG-GIX"/>
                                             </constraints>
@@ -102,7 +102,7 @@
                             <outlet property="delegate" destination="mf3-k4-Iob" id="GfV-LP-VHF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Title" id="gNJ-jF-Wcs" userLabel="My Feed"/>
+                    <navigationItem key="navigationItem" title="My Feed" id="gNJ-jF-Wcs" userLabel="My Feed"/>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="gLQ-OL-TE4">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
