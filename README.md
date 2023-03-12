@@ -1,1 +1,1 @@
-# Prototype
+# CampusVifi
